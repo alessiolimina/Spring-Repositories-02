@@ -1,0 +1,698 @@
+{
+	"info": {
+		"_postman_id": "df4a9a32-be4e-44d6-8cae-3046594b2fea",
+		"name": "Spring Repositories 02",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26121086",
+		"_collection_link": "https://www.postman.com/develhope-exercise-postman/workspace/develhope-postman-use/collection/26121086-df4a9a32-be4e-44d6-8cae-3046594b2fea?action=share&creator=26121086&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Adding Java programming language",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Java\",\r\n  \"firstAppearanceYear\": 1995,\r\n  \"inventor\": \"JAmes Gosling\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/repo-prog-languages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"repo-prog-languages"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Adding Java programming language",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Java\",\r\n  \"firstAppearanceYear\": 1995,\r\n  \"inventor\": \"JAmes Gosling\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5050/repo-prog-languages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"repo-prog-languages"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Location",
+							"value": "http://localhost:5050/repo-prog-languages/1"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/hal+json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 28 Apr 2023 16:02:54 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"Java\",\n    \"firstAppearanceYear\": 1995,\n    \"inventor\": \"JAmes Gosling\",\n    \"_links\": {\n        \"self\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages/1\"\n        },\n        \"programmingLanguage\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages/1\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Adding C++ programming language",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"C++\",\r\n  \"firstAppearanceYear\": 1983,\r\n  \"inventor\": \"Bjarne Stroustrup\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/repo-prog-languages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"repo-prog-languages"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Adding C++ programming language",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"C++\",\r\n  \"firstAppearanceYear\": 1983,\r\n  \"inventor\": \"Bjarne Stroustrup\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5050/repo-prog-languages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"repo-prog-languages"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Location",
+							"value": "http://localhost:5050/repo-prog-languages/2"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/hal+json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 28 Apr 2023 16:05:13 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"C++\",\n    \"firstAppearanceYear\": 1983,\n    \"inventor\": \"Bjarne Stroustrup\",\n    \"_links\": {\n        \"self\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages/2\"\n        },\n        \"programmingLanguage\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages/2\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Adding Javascript programming language",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Javascript\",\r\n  \"firstAppearanceYear\": 1995,\r\n  \"inventor\": \"Brendan Eich\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/repo-prog-languages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"repo-prog-languages"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Adding Javascript programming language",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Javascript\",\r\n  \"firstAppearanceYear\": 1995,\r\n  \"inventor\": \"Brendan Eich\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5050/repo-prog-languages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"repo-prog-languages"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Location",
+							"value": "http://localhost:5050/repo-prog-languages/3"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/hal+json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 28 Apr 2023 16:07:02 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"Javascript\",\n    \"firstAppearanceYear\": 1995,\n    \"inventor\": \"Brendan Eich\",\n    \"_links\": {\n        \"self\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages/3\"\n        },\n        \"programmingLanguage\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages/3\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Adding Go programming language",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Go\",\r\n  \"firstAppearanceYear\": 2009,\r\n  \"inventor\": \"Google\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/repo-prog-languages",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"repo-prog-languages"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Adding Go programming language",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Go\",\r\n  \"firstAppearanceYear\": 2009,\r\n  \"inventor\": \"Google\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5050/repo-prog-languages",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"repo-prog-languages"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Location",
+							"value": "http://localhost:5050/repo-prog-languages/4"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/hal+json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 28 Apr 2023 16:08:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"Go\",\n    \"firstAppearanceYear\": 2009,\n    \"inventor\": \"Google\",\n    \"_links\": {\n        \"self\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages/4\"\n        },\n        \"programmingLanguage\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages/4\"\n        }\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get First 2 Languages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/repo-prog-languages?page=0&size=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"repo-prog-languages"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get First 2 Languages",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/repo-prog-languages?page=0&size=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"repo-prog-languages"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "size",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/hal+json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 28 Apr 2023 16:16:17 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_embedded\": {\n        \"programmingLanguages\": [\n            {\n                \"name\": \"Java\",\n                \"firstAppearanceYear\": 1995,\n                \"inventor\": \"JAmes Gosling\",\n                \"_links\": {\n                    \"self\": {\n                        \"href\": \"http://localhost:5050/repo-prog-languages/1\"\n                    },\n                    \"programmingLanguage\": {\n                        \"href\": \"http://localhost:5050/repo-prog-languages/1\"\n                    }\n                }\n            },\n            {\n                \"name\": \"C++\",\n                \"firstAppearanceYear\": 1983,\n                \"inventor\": \"Bjarne Stroustrup\",\n                \"_links\": {\n                    \"self\": {\n                        \"href\": \"http://localhost:5050/repo-prog-languages/2\"\n                    },\n                    \"programmingLanguage\": {\n                        \"href\": \"http://localhost:5050/repo-prog-languages/2\"\n                    }\n                }\n            }\n        ]\n    },\n    \"_links\": {\n        \"first\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages?page=0&size=2\"\n        },\n        \"self\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages?page=0&size=2\"\n        },\n        \"next\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages?page=1&size=2\"\n        },\n        \"last\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages?page=1&size=2\"\n        },\n        \"profile\": {\n            \"href\": \"http://localhost:5050/profile/repo-prog-languages\"\n        }\n    },\n    \"page\": {\n        \"size\": 2,\n        \"totalElements\": 4,\n        \"totalPages\": 2,\n        \"number\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Last 2 Languages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5050/repo-prog-languages?page=1&size=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"repo-prog-languages"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "size",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Last 2 Languages",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5050/repo-prog-languages?page=1&size=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"repo-prog-languages"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "size",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/hal+json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 28 Apr 2023 16:16:59 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_embedded\": {\n        \"programmingLanguages\": [\n            {\n                \"name\": \"Javascript\",\n                \"firstAppearanceYear\": 1995,\n                \"inventor\": \"Brendan Eich\",\n                \"_links\": {\n                    \"self\": {\n                        \"href\": \"http://localhost:5050/repo-prog-languages/3\"\n                    },\n                    \"programmingLanguage\": {\n                        \"href\": \"http://localhost:5050/repo-prog-languages/3\"\n                    }\n                }\n            },\n            {\n                \"name\": \"Go\",\n                \"firstAppearanceYear\": 2009,\n                \"inventor\": \"Google\",\n                \"_links\": {\n                    \"self\": {\n                        \"href\": \"http://localhost:5050/repo-prog-languages/4\"\n                    },\n                    \"programmingLanguage\": {\n                        \"href\": \"http://localhost:5050/repo-prog-languages/4\"\n                    }\n                }\n            }\n        ]\n    },\n    \"_links\": {\n        \"first\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages?page=0&size=2\"\n        },\n        \"prev\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages?page=0&size=2\"\n        },\n        \"self\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages?page=1&size=2\"\n        },\n        \"last\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages?page=1&size=2\"\n        },\n        \"profile\": {\n            \"href\": \"http://localhost:5050/profile/repo-prog-languages\"\n        }\n    },\n    \"page\": {\n        \"size\": 2,\n        \"totalElements\": 4,\n        \"totalPages\": 2,\n        \"number\": 1\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit Inventor",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"inventor\": \"Alessio Limina\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5050/repo-prog-languages/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"repo-prog-languages",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Edit Inventor",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"inventor\": \"Alessio Limina\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5050/repo-prog-languages/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5050",
+							"path": [
+								"repo-prog-languages",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"key": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/hal+json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 28 Apr 2023 16:21:35 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"C++\",\n    \"firstAppearanceYear\": 1983,\n    \"inventor\": \"Alessio Limina\",\n    \"_links\": {\n        \"self\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages/2\"\n        },\n        \"programmingLanguage\": {\n            \"href\": \"http://localhost:5050/repo-prog-languages/2\"\n        }\n    }\n}"
+				}
+			]
+		}
+	]
+}
